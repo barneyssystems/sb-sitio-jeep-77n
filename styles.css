@@ -95,7 +95,7 @@ section{padding:72px 0 0}
 .cat li .p{font-variant-numeric:tabular-nums;font-weight:600;white-space:nowrap}
 .cat li .p.ver{font-weight:500;font-size:13px;color:var(--gris)}
 .menu-cta{margin-top:30px;padding:24px;border-radius:var(--r);background:var(--papel);border:1px solid var(--linea)}
-.menu-cta p{font-size:15px;color:var(--gris);margin-bottom:14px}
+.menu-cta p{font-size:15px;color:var(--gris);margin-bottom:0}
 .fineprint{font-size:12.5px;color:var(--gris);margin-top:16px}
 
 /* zones */
