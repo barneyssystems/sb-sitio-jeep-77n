@@ -241,7 +241,7 @@
       es.forEach(function (e) { var i = seen.indexOf(e.target); if (e.isIntersecting && i < 0) seen.push(e.target); if (!e.isIntersecting && i >= 0) seen.splice(i, 1); });
       ctaInView = seen.length > 0; onScroll();
     });
-    $$('.menu-cta, .casa .cta, .foot').forEach(function (el) { cio.observe(el); });
+    $$('.foot').forEach(function (el) { cio.observe(el); });
   }
   function onScroll() {
     ticking = false;
